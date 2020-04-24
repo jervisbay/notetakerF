@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saved Notes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="../src/style.css" /> -->
+    <link rel="stylesheet" href="http://localhost:3000/styles/style.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Note Taker
+    </a>
+    </nav>
+
+    <br>
+    <div class="container">
+
+        <div class="card">
+            <div class="card-header">
+                <h4>Saved Notes</h4>
+            </div>
+            <div class="card-body">
+                <ul id="noteList" class="list-group"></ul>
+            </div>
+        </div>
+
+        <div class="button-holder">
+
+            <a class="btn btn-primary btn-lg mt-4 note-taker" href="/notes" role="button">Note Taker</a>
+            <a class="btn btn-primary btn-lg mt-4 clear-button" role="button">Clear Notes</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="../src/savednotes.js"></script> -->
+    <script src="http://localhost:3000/js/savednotes.js"></script>
+
+</body>
+
+</html>
